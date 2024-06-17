@@ -30,7 +30,7 @@
             <a class="nav-link" href="index.php">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="news.php">Новости</a>
+            <a class="nav-link" href="quiz.php">Quizis</a>
           </li>
           <li class="nav-item">
             <?php

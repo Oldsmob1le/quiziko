@@ -23,7 +23,7 @@ $category_id = isset($_GET['category']) ? $_GET['category'] : 0;
   <div class="container">
     <div class="row mt-5">
       <div class="col-6">
-        <h1>Quizя</h1>
+        <h1>Quiz</h1>
       </div>
       <div class="col-6 text-end">
         <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#addQuizModal">Создать</a>
@@ -181,7 +181,7 @@ document.getElementById('addQuestionButton').addEventListener('click', function 
                   <?= htmlspecialchars($row['category_name']) ?></small></p>
               <p class="card-text"><small class="text-muted">Автор: <?= htmlspecialchars($row['name']) ?></small></p>
               <?php if ($row['user_id'] == $user_id) { ?>
-                        <a href="edit_news.php?id=<?= $row['id'] ?>" class="btn btn-primary">Редактировать</a>
+                        <a href="edit_quiz.php?id=<?= $row['id'] ?>" class="btn btn-primary">Редактировать</a>
               <?php } ?>
             </div>
           </div>

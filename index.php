@@ -21,7 +21,7 @@
     <h1>Новости, сейчас!</h1>
     <a class="btn btn-primary mt-2" href="news.php" role="button">Перейти</a>
 
-    <img src="image/banner.png" class="img-fluid rounded-top mt-5" alt="" />
+    <img src="image/banner.png"  class="img-fluid rounded-top mt-5" alt="" />
 
   </section>
 
