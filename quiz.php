@@ -23,7 +23,7 @@ $category_id = isset($_GET['category']) ? $_GET['category'] : 0;
   <div class="container">
     <div class="row mt-5">
       <div class="col-6">
-        <h1>Quiz</h1>
+        <h1>Quizя</h1>
       </div>
       <div class="col-6 text-end">
         <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#addQuizModal">Создать</a>
