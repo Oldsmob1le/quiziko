@@ -11,3 +11,14 @@
 .card {
     height: 250px;
 }
+
+.banner-bg {
+    padding: 235px;
+    background: rgb(146, 180, 255);
+    background: radial-gradient(circle, rgba(146, 180, 255, 1) 0%, rgba(0, 28, 142, 1) 100%);
+    border-radius: 25px;
+}
+
+.banner-bg h1 {
+    color: aliceblue;
+}
