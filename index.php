@@ -19,7 +19,7 @@
   <section class="main container mt-5 text-center">
 
     <div class="banner-bg">
-      <h1>Пройдите квиз, сейчас!</h1>
+      <h1>Пройдите квизf, сейчwас!</h1>
       <a class="btn btn-primary mt-2" href="news.php" role="button">Перейти</a>
     </div>
 
