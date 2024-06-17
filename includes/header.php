@@ -5,7 +5,7 @@
   <div class="container">
     <div class="navbar-logo">
       <a href="#" class="logo text-decoration-none">
-        NEWS
+        QUIZIKO
       </a>
     </div>
 

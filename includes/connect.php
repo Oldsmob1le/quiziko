@@ -1,6 +1,6 @@
 <?php
     try{
-        $conn = new PDO ("mysql:host=localhost;dbname=REG",'root','');
+        $conn = new PDO ("mysql:host=localhost;dbname=reg",'root','');
     }catch(PDOException $e){
         echo $e;
     }
