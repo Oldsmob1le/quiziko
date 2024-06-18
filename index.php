@@ -1,4 +1,4 @@
-<?php include('includes/connect.php'); ?>
+<?php include ('includes/connect.php'); ?>
 
 <!doctype html>
 <html lang="en">
@@ -9,19 +9,21 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/main.css">
 </head>
 
 <body>
 
-<?php include('includes/header.php'); ?>
+  <?php include ('includes/header.php'); ?>
 
   <section class="main container mt-5 text-center">
 
+    <div class="banner-bg">
+      <h1>Пройди квиз, сейчас!</h1>
+      <p>Квизы по языкам программирования</p>
+      <a class="btn btn-primary mt-2" href="quiz.php" role="button">Перейти</a>
+    </div>
 
-    <h1>Новости, сейчас!</h1>
-    <a class="btn btn-primary mt-2" href="news.php" role="button">Перейти</a>
-
-    <img src="image/banner.png"  class="img-fluid rounded-top mt-5" alt="" />
 
   </section>
 
